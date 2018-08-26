@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>biodata</title>
+	<style>
+		p{font-size:20;}
+		h1{font-size:36;font-style:bold;background-color:black;color:white;}
+		label{font-size:20;}
+		fieldset{color:blue;}
+		legend{font-style:italic;color:lightgrey;font-size:25;}
+	</style>
+</head>
+<body bgcolor=tomato>
+	<center>
+	<h1>BIODATA</h1>
+	</center>
+	<form method=post action=>
+		<fieldset>
+			<legend>Personal Details</legend>
+			<label>Name:<input name="name" type=text maxlength=25 required/></label><br><br>
+			<label>Address:<br><textarea rows=6 cols=80></textarea></label><br><br>
+			<label>Date of birth:<input name=date type=date required/></label><br><br>
+			<label>Father's name:<input name=father type=text maxlength=35></label>
+			<label>Occupation:
+				<select name=fatheroccup>
+					<option value="farmer">Farmer</option>
+					<option value="business">Business</option>
+					<option value=other>Other</option>
+				</select>
+			</label><br><br>
+			<label>Mother's name:<input name=mother type=text maxlength=35></label>
+			<label>Occupation:
+				<select name=motheroccup>
+					<option value="housewife">House wife</option>
+					<option value="business">Business</option>
+					<option value=other>Other</option>
+				</select>
+			</label><br><br>
+		</fieldset>
+		<fieldset>
+			<legend>Educational Details</legend>
+			<label>Current Qualification:<br><br>
+				<input name=quali1 type=checkbox value=SSLC> SSLC
+				<input name=quali2  type=checkbox value="hs"> Higher Secondary
+				<input name=quali3 type=checkbox value=Btech> Btech
+				<input name=quali4 type=checkbox value=Bsc>	Bsc
+				<input name=quali5 type=checkbox value=MBBS> MBBS
+			</label><br><br>
+			<label>College:
+				<input list=college name=college>
+				<datalist id=college>
+					<option value="Govt.Engineering college bartonhill">
+						<option value="college of engineering tvm">
+							<option value="tkm college of engineering kollam">
+								<option value="marian college of engineering">
+				</datalist>
+			</label><br><br>
+			<p>Click here for your current <a href="file:///C:/Users/User/Desktop/s6/internet%20theory/lab/3.html">marklist</a></p>
+			</fieldset>
+		<fieldset>
+			<legend>other details</legend><br>
+			<p>Click here to get my <a href="file:///C:/Users/User/Desktop/s6/internet%20theory/lab/4.html">favourites</a></p>
+		</fieldset>
+		<input type=submit value=submit>
+		<input type=reset value=reset>
+	</form>
+</body>
+</html>
+
+
+
+
